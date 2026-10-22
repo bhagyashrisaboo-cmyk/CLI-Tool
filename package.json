@@ -1,0 +1,32 @@
+{
+  "name": "actiontrack",
+  "version": "1.0.0",
+  "description": "Track action items from Markdown meeting notes and draft follow-up emails for review.",
+  "type": "module",
+  "bin": {
+    "actiontrack": "bin/actiontrack.js"
+  },
+  "main": "src/cli.js",
+  "files": [
+    "bin",
+    "src",
+    "people.example.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\"",
+    "test:unit": "node --test \"tests/unit/*.test.js\"",
+    "test:integration": "node --test \"tests/integration/*.test.js\""
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "optionalDependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "googleapis": "^144.0.0"
+  },
+  "license": "MIT"
+}

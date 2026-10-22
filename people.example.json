@@ -1,0 +1,13 @@
+{
+  "people": [
+    { "name": "Priya Nair",   "email": "priya.nair@example.com",   "aliases": ["Priya N."] },
+    { "name": "Priya Shah",   "email": "priya.shah@example.com",   "aliases": ["Priya S."] },
+    { "name": "Rahul Mehta",  "email": "rahul.mehta@example.com",  "aliases": ["Rahul M."] },
+    { "name": "Rahul Verma",  "email": "rahul.verma@example.com",  "aliases": ["Rahul V."] },
+    { "name": "Anita Desai",  "email": "anita.desai@example.com" },
+    { "name": "Sam Okafor",   "email": "sam.okafor@example.com" },
+    { "name": "Meera Iyer",   "email": "meera.iyer@example.com" },
+    { "name": "Karan Joshi",  "email": "karan.joshi@example.com" },
+    { "name": "Lena Fischer", "email": "lena.fischer@example.com" }
+  ]
+}
